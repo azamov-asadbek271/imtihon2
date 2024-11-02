@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Work Sans;
+}
+.boy {
+    object-fit: cover;
+}
+.continer {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F3FBF8;
+    padding: 0 30px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    align-items: center;
+}
+header .part1 .quti {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    cursor: pointer;
+    }
+header .part1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+header .part1 a {
+    font-size: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+
+}
+header .part2 .resume {
+    color: black;
+    margin-right: 15px;
+    transition: all 0.4s ease-in-out;
+}
+header .part2 .resume:hover {
+    color: rgb(122, 122, 73);
+}
+header .part2 .project {
+    color: black;
+    margin-right: 15px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    transition: all 0.4s ease-in-out;
+    padding: 3px 14px;
+}
+header .part2 .project:hover {
+    color: rgb(122, 122, 73);
+}
+header .part2 .contact {
+    transition: all 0.4s ease-in-out;
+    color: black;
+}
+header .part2 .contact:hover {
+    color: rgb(122, 122, 73);
+}
+.continer main {
+    width: 100%;
+    height: 80vh;
+}
+main .qism {
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 400px;
+    align-items: center;
+    position: absolute;
+    top: 170px;
+    left: 260px;
+
+}
+main .qism .images img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+main .qism  .qutular .quti1 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+main .qism  .qutular .quti1:hover {
+  background-color: #F3FBF8;
+}
+
+main .qism .qutular .quti2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.5s ease-in-out;
+    
+}
+main .qism .qutular .quti2:hover {
+background-color: #F3FBF8;
+}
+
+
+main .qism  .qutular .quti3 {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+main .qism  .qutular .quti3:hover {
+    background-color: #F3FBF8;
+    }
+main .qism  .qutular {
+    display: flex;
+    gap: 10px;
+}
+
+main .qism  .hello {
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+main .qism .text .matn {
+    margin-bottom: 30px;
+}
+main .qism .text .matn p {
+    width: 340px;
+    margin-top: 5px;
+}
+.continer footer {
+  width: 100%;  
+  height: 150px;
+  border-top: 2px solid rgb(214, 204, 190);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+
+}
+footer .follow .in {
+    display: inline;
+}
+.continer2 {
+    width: 100%;
+    min-height: 200vh;
+    background-color: #F3FBF8;
+    padding: 0 30px;
+}
+.main2 {
+    width: 100%;
+    min-height: 100vh;
+}
+.main2 .text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 105vh;
+   
+}
+.main2 .text .blok2 {
+    width: 400px;
+    height: 530px;
+    margin-top: 230px;
+    margin-right: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    
+}
+.main2 .text .blok2 .box {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    
+}
+.main2 .text .blok2 .box .matn {
+    line-height: 30px;
+
+}
+.main2 .text .blok .resume h1 {
+    font-size: 45px;
+}
+.main2 .text .blok {
+    margin-top: 120px;
+    margin-left: 220px;
+    width: 200px;
+    height: 200px;
+}
+.main2 .text .blok2 .box2 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.main2 .text .blok2 .box2 .matn2 {
+    line-height: 30px;
+}
+.main2 .text .blok2 .box3 {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.main2 .text .blok2 .box3 .matn3 {
+    line-height: 30px;
+}
+.main2 .text2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 75vh;
+    border-top: 2px solid rgb(214, 204, 190);
+    border-bottom: 2px solid rgb(214, 204, 190);
+
+}
+.main2 .text2 .education {
+    width: 170px;
+    height: 80px;
+    margin-top: 120px;
+    margin-left: 220px;
+
+}
+.main2 .text2 .box .quti1 {
+    margin-right: 235px;
+    margin-top: 120px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    gap: 20px;
+    
+}
+.main2 .text2 .box .quti1 p {
+    line-height: 30px;
+    margin-top: 10px;
+
+}
+.main2 .text2 .box .quti2 {
+    margin-right: 180px;
+    margin-top: 120px;
+    width: 400px;
+    height: 150px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.main2 .text2 .box .quti2 p {
+    line-height: 30px;
+    margin-top: 10px;
+
+}
+.main2 .text3 {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    justify-content: space-between;
+}
+.main2 .text3 .skills {
+    width: 190px;
+    height: 100px;
+    margin-top: 120px;
+    margin-left: 220px;
+}
+.main2 .text3 .paragrph {
+    margin-right: 245px;
+    margin-top: 120px;
+    width: 330px;
+    height: 300px;
+    line-height: 30px;
+
+}
+.continer2 footer {
+    width: 100%;
+    height: 150px;
+    border-top: 2px solid rgb(214, 204, 190);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+
+}
+
+footer .follow .in {
+    display: inline;
+}
+.continer3 {
+    width: 100%;
+    min-height: 200vh;
+    background-color: #F3FBF8;
+    padding: 0 30px;
+}
+.main3 {
+    width: 85%;
+    min-height: 120vh;
+}
+.main3 h1 {
+    margin-top: 100px;
+    margin-left: 220px;
+    font-size: 44px;
+}
+.main3 .box {
+    display: flex;
+    gap: 130px;
+    margin-top: 100px;
+    margin-left: 220px;
+}
+.main3 .images img {
+    width: 500px;
+    height: 350px;
+}
+.main3 .box .text {
+    width: 470px;
+    height: 200px;
+}
+.main3 .box .text p {
+    margin-top: 15px;
+    line-height: 30px;
+}
+.main3 .box2 {
+    display: flex;
+    gap: 130px;
+    margin-top: 150px;
+    margin-left: 220px;
+}
+
+.main3 .images2 img {
+    width: 500px;
+    height: 350px;
+}
+
+.main3 .box2 .text2 {
+    width: 470px;
+    height: 200px;
+}
+
+.main3 .box2 .text2 p {
+    margin-top: 15px;
+    line-height: 30px;
+} 
+.main3 .box3 {
+    display: flex;
+    gap: 130px;
+    margin-top: 150px;
+    margin-left: 220px;
+}
+
+.main3 .images3 img {
+    width: 500px;
+    height: 350px;
+}
+
+.main3 .box3 .text3 {
+    width: 470px;
+    height: 200px;
+}
+
+.main3 .box3 .text3 p {
+    margin-top: 15px;
+    line-height: 30px;
+}
+.continer3 footer {
+    width: 100%;
+    height: 150px;
+    border-top: 2px solid rgb(214, 204, 190);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 100px;
+
+}
+.continer4 {
+    width: 100%;
+    height: 130vh;
+    background-color: #F3FBF8;
+    padding: 0 30px;
+}
+.main4 .right .quti3 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(218, 163, 24);
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-left: 40px;
+
+}
+.main4 .right .submit {
+    display: flex;
+    
+}
+.main4 {
+   width: 70%;
+   height: 60vh;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 150px;
+   margin-left: 200px;
+}
+.main4 .left .phone {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.main4 .left .contact h1 {
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+label {
+    display:block;
+    margin-bottom: 5px;
+}
+input {
+    width: 230px;
+    height: 50px;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 20px;
+
+}
+.bottom {
+    display: flex;
+     justify-content: space-between;
+     gap: 20px;
+}
+.bottom label {
+    display: block;
+}
+.continer4 footer {
+    width: 100%;
+    height: 150px;
+    border-top: 2px solid rgb(214, 204, 190);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin-top: 100px;
+
+}
+
